@@ -68,7 +68,7 @@ def create_supervisor_logger(logger: Logger, log_path: Path):
 class FederatedSupervisor:
     """Class that does client and filesystem path bookkeeping for the simulation."""
 
-    base_storage_dir = Path("/code_execution/submission")
+    base_storage_dir = Path("/tmp/code_execution/submission")
 
     def __init__(self, partition_config_path: Path) -> None:
         # Set up paths

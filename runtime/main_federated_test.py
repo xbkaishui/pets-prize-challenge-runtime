@@ -12,7 +12,7 @@ from supervisor import (
     wrap_test_client_factory,
 )
 
-from src.solution_federated import test_client_factory, test_strategy_factory
+from src.fincrime.solution_federated import test_client_factory, test_strategy_factory
 
 
 if __name__ == "__main__":

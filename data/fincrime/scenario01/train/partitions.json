@@ -4,8 +4,5 @@
     },
     "bank01": {
         "data_path": "bank_dataset.csv"
-    },
-    "bank02": {
-        "data_path": "bank_dataset.csv"
     }
 }
