@@ -2,7 +2,7 @@ from loguru import logger
 
 from supervisor import CentralizedSupervisor
 
-import src.solution_centralized as solution_centralized
+import src.fincrime.solution_centralized as solution_centralized
 
 
 if __name__ == "__main__":

@@ -82,7 +82,7 @@ endif
 pull:
 	docker pull ${REGISTRY_IMAGE}
 
-## Creates a submission/submission.zip file from the source code in examples_src
+## Creates a submission/submission.zip file from the source code in src
 pack-example:
 # Don't overwrite so no work is lost accidentally
 ifeq (${SUBMISSION_TRACK},)

@@ -2,7 +2,7 @@ from loguru import logger
 
 from supervisor import CentralizedSupervisor
 
-from src.solution_centralized import predict
+from src.fincrime.solution_centralized import predict
 
 
 if __name__ == "__main__":

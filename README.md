@@ -17,8 +17,8 @@ Welcome to the runtime repository for the PETs Prize Challenge! This repository 
 This repository has three primary uses for competitors:
 
 1. 💡 **Example solutions**: You can find simple examples that demonstrate how to write code that works with the evaluation.
-    - [Track A: Financial Crime Example](./examples_src/fincrime/)
-    - [Track B: Pandemic Forecasting Example](./examples_src/pandemic/)
+    - [Track A: Financial Crime Example](src/fincrime/)
+    - [Track B: Pandemic Forecasting Example](src/pandemic/)
 2. 🔧 **Test your submission**: Test your submission with a locally running version of the container to discover errors before submitting to the competition site.
 3. 📦 **Request new packages in the official runtime**: Since the Docker container will not have network access, all dependencies must be pre-installed. If you want to use a package that is not in the runtime environment, make a pull request to this repository.
 
@@ -116,8 +116,8 @@ If you have additional questions, please ask on the [challenge forum](https://co
 
 We provide examples of simplistic models to demonstrate what a working submission looks like.
 
-- [Track A: Financial Crime Example](./examples_src/fincrime/)
-- [Track B: Pandemic Forecasting Example](./examples_src/pandemic/)
+- [Track A: Financial Crime Example](src/fincrime/)
+- [Track B: Pandemic Forecasting Example](src/pandemic/)
 
 These examples are meant to demonstrate working code that conforms to the API specifications and can run through evaluation simulation. They do not implement meaningful machine learning models or any privacy techniques.
 

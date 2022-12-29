@@ -416,8 +416,8 @@ class FederatedWrapperStrategy(fl.server.strategy.Strategy):
 class CentralizedSupervisor:
     """Class that does path bookkeeping for centralized evaluation."""
 
-    base_data_dir = Path("/code_execution/data/centralized")
-    base_storage_dir = Path("/code_execution/submission")
+    base_data_dir = Path("/Users/xbkaishui/nists/pets-prize-challenge-runtime/data/fincrime/centralized")
+    base_storage_dir = Path("/tmp/code_execution/submission")
 
     def __init__(self, stage: str, root_logger: Logger) -> None:
         # Set up paths

@@ -12,7 +12,7 @@ from supervisor import (
     wrap_train_client_factory,
 )
 
-import src.solution_federated as solution_federated
+import src.fincrime.solution_federated as solution_federated
 
 
 if __name__ == "__main__":
